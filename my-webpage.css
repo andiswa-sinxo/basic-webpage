@@ -1,15 +1,10 @@
 .pg {
     display: flex;
     padding-bottom: 33px;
-   
 }
 .pg img {
-    width: 468px;
-    margin: auto;
-    padding-left: 100px;
-}
-.center {
-    display: block;
+    width: 375px;
+
 }
 .pic {
     display: flex;
@@ -21,8 +16,7 @@
     height:300px;
 }
 .name {
-    display: flex;
-    width: 100%;
+    width: 50%;
     font-size: 50px;
     text-align: start;
     margin-block-start: 50px;
@@ -46,6 +40,7 @@ p {
     width: 50%;
     padding: 40px;
     padding-top: 0px;
+    float: right;
 }
 p {
     margin-top: 20;
@@ -56,11 +51,10 @@ h4 {
 }
 #p2 {
     margin-top: -3%;
-    font-size: 40px;
-    text-align: center;
+    font-size: 30px;
 }
 table {
-    width: 100em;
+    width: 510px;
 }
 th, th {
     padding: 10px;
@@ -76,10 +70,5 @@ h5 {
     font-size: 49px;
 }
 h6 {
-    font-size: 2em;
-    margin-block-start: -2em;
-}
-ul {
-    margin-block-start: -4em;
-    width: 700px;
+    font-size: 30px;
 }
