@@ -73,13 +73,34 @@ table, th, td {
     border-collapse: collapse;
 }
 h5 {
-    font-size: 49px;
+    font-size: 52px;
 }
-h6 {
-    font-size: 2em;
-    margin-block-start: -2em;
+.flex-container {
+    display: flex;
+    flex-direction: row;
 }
-ul {
-    margin-block-start: -4em;
-    width: 700px;
+.flex-container > div {
+    width: 450px;
+    font-size: 30px;
+    text-align: center;
+    margin: 4px;
+    margin-block-start: -46px;
+}
+.six {
+    width: 446px;
+    margin-left: -346px;
+}
+li {
+    font-size: 20px;
+    width: 460px;
+    text-align: -webkit-match-parent;
+    display: list-item;
+}
+.ziko {
+    width: 446px;
+    margin-left: -346px;
+}
+.slave {
+    width: 446px;
+    margin-left: -346px;
 }
