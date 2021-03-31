@@ -86,7 +86,7 @@ width: 33.33%;
 
 
 .Historical .museum img {
- float:left;
+    float:left;
 }
 
 .Historical .iziko img {
@@ -102,12 +102,37 @@ width: 33.33%;
 
 
 .Historical{
-        content: "";
+        /* content: "";
         display: table;
         clear: both;
-        align-items: start;
+        align-items: start; */
+        display: flex;
+        width: 100%;
 
     }
+
+   
+.a .slave {
+    display: flex;
+    width: 90%;
+}
+.mu-text, .mu-text2, .mu-text3 {
+    padding: 10px;
+}
+.a .iziko {
+    display: flex;
+    width: 90%;
+}
+.a .museum {
+    display: flex;
+    width: 90%;
+}
+.a{
+
+    display: block;
+    width: 33%;
+}
+
 
 @media screen and (max-width: 800px) {
     .mu-pic1{
